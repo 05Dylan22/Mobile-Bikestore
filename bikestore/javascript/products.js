@@ -103,7 +103,7 @@ if (productInfo.reviews == 0) {
     ratingNums = Number(`${ratingNums}`)
     nonAvg += ratingNums
   })
-  avgRating = nonAvg/bikestore/productInfo.reviews.length
+  avgRating = nonAvg/productInfo.reviews.length
   let isActive = ""
   let isActive2 = ""
   let isActive3 = ""
@@ -181,7 +181,7 @@ if (productInfo.reviews == 0) {
   })
 
   function toPercent(starsNum) {
-    return starsNum/bikestore/productInfo.reviews.length * 100 + "%"
+    return starsNum/productInfo.reviews.length * 100 + "%"
   }
 
   reviewSect1 += `<div class="review-topsect"><h2>Customer <br>Reviews</h2><button id="write-review">Write A Review</button></div><div class="sort-reviews"><label for="sort-opt1">5 Star</label><div id="sort-opt1" class="option-div"><div class="sort-option"></div><p>${toPercent(fiveStars)}</p></div><label for="sort-opt2">4 Star</label><div id="sort-opt2" class="option-div"><div class="sort-option"></div><p>${toPercent(fourStars)}</p></div><label for="sort-opt3">3 Star</label><div id="sort-opt3" class="option-div"><div class="sort-option"></div><p>${toPercent(threeStars)}</p></div><label for="sort-opt4">2 Star</label><div id="sort-opt4" class="option-div"><div class="sort-option"></div><p>${toPercent(twoStars)}</p></div><label for="sort-opt5">1 Star</label><div id="sort-opt5" class="option-div"><div class="sort-option"></div><p>${toPercent(oneStars)}</p></div></div>`

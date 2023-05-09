@@ -245,7 +245,7 @@ function wishlistHTML() {
     
   
     for (let i = 0; i < wishlist.length; i++) {
-      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
+      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/bikestore/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
     }
   
     wishlistContents.innerHTML = topItems + wishlistOutput
@@ -329,7 +329,7 @@ function cartHTML() {
   let cartItem
   for (let i = 0; i < cartLength; i++) {
     cartItem = JSON.parse(localStorage.getItem(`${i}`))
-    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
+    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/bikestore/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
 
     cash = cartItem.price
     cash = cash.replace("$", "")

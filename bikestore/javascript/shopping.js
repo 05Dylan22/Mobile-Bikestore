@@ -99,7 +99,7 @@ viewProduct.forEach((product) => {
 
   let productId = product.getAttribute("id") 
   sessionStorage.setItem("selectedProduct", JSON.stringify(jsonPr[productId]))
-  location.replace("http://127.0.0.1:5500/bikestore/bikestore/product.html")
+  location.replace("http://127.0.0.1:5500/bikestore/product.html")
   })
 })
 
