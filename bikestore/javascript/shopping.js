@@ -42,9 +42,9 @@ jsonPr.forEach(item => {
 
     salePrice += `<div class="show-sale-price"><p class="before-price">${item.price}</p><p class="final-price">${finalPrice}</p></div>`
 
-    output2 += `<div class="showcase-product-div"> <div class="product-img-div"> <img class="showcase-img" src=${item.images[0]}> <div class="heart-div" id="${idNum}"><img alt="heart outline" class="heart-img" src="/images/heart-outline.png"></div> ${saleContent}</div> <div class="product-info"> <p class="product-name">${item.name}</p> <div class="sale-name-price"><p class="price-type">${item.make} &#124; ${salePrice}</p></div> <button id="${idNum}" class="view-product">View ${item.type}</button> </div> </div>`
+    output2 += `<div class="showcase-product-div"> <div class="product-img-div"> <img class="showcase-img" src=${item.images[0]}> <div class="heart-div" id="${idNum}"><img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png"></div> ${saleContent}</div> <div class="product-info"> <p class="product-name">${item.name}</p> <div class="sale-name-price"><p class="price-type">${item.make} &#124; ${salePrice}</p></div> <button id="${idNum}" class="view-product">View ${item.type}</button> </div> </div>`
   } else {
-    output2 += `<div class="showcase-product-div"> <div class="product-img-div"> <img class="showcase-img" src=${item.images[0]}><div class="heart-div" id="${idNum}"><img alt="heart outline" class="heart-img" src="/images/heart-outline.png"></div></div> <div class="product-info"> <p class="product-name">${item.name}</p> <p class="price-type">${item.make} &#124; ${item.price} </p> <button id="${idNum}" class="view-product">View ${item.type}</button> </div> </div>`
+    output2 += `<div class="showcase-product-div"> <div class="product-img-div"> <img class="showcase-img" src=${item.images[0]}><div class="heart-div" id="${idNum}"><img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png"></div></div> <div class="product-info"> <p class="product-name">${item.name}</p> <p class="price-type">${item.make} &#124; ${item.price} </p> <button id="${idNum}" class="view-product">View ${item.type}</button> </div> </div>`
   }
 
   idNum++
@@ -62,7 +62,7 @@ let wishlist = JSON.parse(localStorage.getItem("wishlist"))
 for (let i = 0; i < wishlist.length; i++) {
   hearts.forEach(heart => {
     if (wishlist[i].name === (`${(jsonPr[heart.getAttribute("id")].name)}`)) {
-      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`
+      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
     }
   })
 }
@@ -71,8 +71,8 @@ for (let i = 0; i < wishlist.length; i++) {
 hearts.forEach(heart => {
 
   heart.addEventListener("click", () => {
-    if (heart.innerHTML === `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`) {
-      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-outline.png">`
+    if (heart.innerHTML === `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`) {
+      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
       for (let i = 0; i < wishlist.length; i++) {
         if (wishlist[i].name === (jsonPr[heart.getAttribute("id")].name)) {
           wishlist.splice(i, 1)
@@ -80,7 +80,7 @@ hearts.forEach(heart => {
       }
       localStorage.setItem("wishlist", `${JSON.stringify(wishlist)}`)
     } else {
-      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`
+      heart.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
       wishlist.push(jsonPr[heart.getAttribute("id")])
       localStorage.setItem("wishlist", `${JSON.stringify(wishlist)}`)
     }
@@ -99,7 +99,7 @@ viewProduct.forEach((product) => {
 
   let productId = product.getAttribute("id") 
   sessionStorage.setItem("selectedProduct", JSON.stringify(jsonPr[productId]))
-  location.replace("http://localhost:3000/product.html")
+  location.replace("http://127.0.0.1:5500/bikestore/bikestore/product.html")
   })
 })
 
@@ -160,7 +160,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("http://localhost:3000/index.html")
+  location.replace("http://127.0.0.1:5500/bikestore/index.html")
 })
 
 //hamburger menu popups
@@ -282,9 +282,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/product.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/product.html" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/shoppingpage.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/shoppingpage.html" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -351,7 +351,7 @@ function wishlistHTML() {
     
   
     for (let i = 0; i < wishlist.length; i++) {
-      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
+      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/bikestore/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
     }
   
     wishlistContents.innerHTML = topItems + wishlistOutput
@@ -435,7 +435,7 @@ function cartHTML() {
   let cartItem
   for (let i = 0; i < cartLength; i++) {
     cartItem = JSON.parse(localStorage.getItem(`${i}`))
-    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
+    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/bikestore/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
 
     cash = cartItem.price
     cash = cash.replace("$", "")
@@ -613,7 +613,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://localhost:3000/shoppingpage.html")
+  location.replace("http://127.0.0.1:5500/bikestore/bikestore/shoppingpage.html")
 }
 
 function clickedFullSus() {

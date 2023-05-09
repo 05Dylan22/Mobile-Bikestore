@@ -53,7 +53,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("http://localhost:3000/index.html")
+  location.replace("http://127.0.0.1:5500/bikestore/index.html")
 })
 
 //hamburger menu popups
@@ -176,9 +176,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/product.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/product.html" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/shoppingpage.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/shoppingpage.html" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -504,7 +504,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://localhost:3000/shoppingpage.html")
+  location.replace("http://127.0.0.1:5500/bikestore/shoppingpage.html")
 }
 
 function clickedFullSus() {

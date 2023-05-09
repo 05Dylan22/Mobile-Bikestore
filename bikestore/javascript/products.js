@@ -39,7 +39,7 @@ let emptyReview = ""
 
 let wishlist2 = JSON.parse(localStorage.getItem("wishlist"))
 if (wishlist2 == 0) {
-  hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-outline.png">`
+  hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
 } else {
   let match = false
   for (let i = 0; i < wishlist2.length; i++) {
@@ -49,16 +49,16 @@ if (wishlist2 == 0) {
   }
 
   if (match) {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
   } else {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-outline.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
   }
 }
 
 
 hearts.addEventListener("click", () => {
-  if (hearts.innerHTML === `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`) {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-outline.png">`
+  if (hearts.innerHTML === `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`) {
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
     for (let i = 0; i < wishlist2.length; i++) {
       if (wishlist2[i].name === (productInfo.name)) {
         wishlist2.splice(i, 1)
@@ -66,7 +66,7 @@ hearts.addEventListener("click", () => {
     }
     localStorage.setItem("wishlist", `${JSON.stringify(wishlist2)}`)
   } else {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/images/heart-filled.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
     wishlist2.push(productInfo)
     localStorage.setItem("wishlist", `${JSON.stringify(wishlist2)}`)
   }
@@ -103,7 +103,7 @@ if (productInfo.reviews == 0) {
     ratingNums = Number(`${ratingNums}`)
     nonAvg += ratingNums
   })
-  avgRating = nonAvg/productInfo.reviews.length
+  avgRating = nonAvg/bikestore/productInfo.reviews.length
   let isActive = ""
   let isActive2 = ""
   let isActive3 = ""
@@ -181,7 +181,7 @@ if (productInfo.reviews == 0) {
   })
 
   function toPercent(starsNum) {
-    return starsNum/productInfo.reviews.length * 100 + "%"
+    return starsNum/bikestore/productInfo.reviews.length * 100 + "%"
   }
 
   reviewSect1 += `<div class="review-topsect"><h2>Customer <br>Reviews</h2><button id="write-review">Write A Review</button></div><div class="sort-reviews"><label for="sort-opt1">5 Star</label><div id="sort-opt1" class="option-div"><div class="sort-option"></div><p>${toPercent(fiveStars)}</p></div><label for="sort-opt2">4 Star</label><div id="sort-opt2" class="option-div"><div class="sort-option"></div><p>${toPercent(fourStars)}</p></div><label for="sort-opt3">3 Star</label><div id="sort-opt3" class="option-div"><div class="sort-option"></div><p>${toPercent(threeStars)}</p></div><label for="sort-opt4">2 Star</label><div id="sort-opt4" class="option-div"><div class="sort-option"></div><p>${toPercent(twoStars)}</p></div><label for="sort-opt5">1 Star</label><div id="sort-opt5" class="option-div"><div class="sort-option"></div><p>${toPercent(oneStars)}</p></div></div>`
@@ -310,7 +310,7 @@ submitReview2.addEventListener("click", () => {
 })
 
 
-//product slider
+//bikestore/product slider
 let isDragging = false,
   startPos = 0,
   currentTranslate = 0,
@@ -537,7 +537,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("http://localhost:3000/index.html")
+  location.replace("http://127.0.0.1:5500/bikestore/index.html")
 })
 
 //hamburger menu popups
@@ -659,9 +659,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/product.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/product.html" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/shoppingpage.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="/bikestore/shoppingpage.html" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -728,7 +728,7 @@ function wishlistHTML() {
     
   
     for (let i = 0; i < wishlist.length; i++) {
-      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
+      wishlistOutput += `<div id="${i}" class="items-wrapper"><div class="wishlist-item"><div class="left-wish"><img class="wish-img" alt="wishlist added product" src="${wishlist[i].images[0]}"></div><div class="middle-wish"><p class="wish-name">${wishlist[i].name}</p><p class="wish-price">${wishlist[i].price}</p></div><div class="right-wish"><div class="right-wish-top"><img class="wishlist-icon" id="wish-heart" src="/bikestore/images/heart-filled.png"></div><div class="right-wish-bottom"><button id="wish-cart">Add To Cart</button></div></div></div></div>`
     }
   
     wishlistContents.innerHTML = topItems + wishlistOutput
@@ -812,7 +812,7 @@ function cartHTML() {
   let cartItem
   for (let i = 0; i < cartLength; i++) {
     cartItem = JSON.parse(localStorage.getItem(`${i}`))
-    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
+    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/bikestore/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
 
     cash = cartItem.price
     cash = cash.replace("$", "")
@@ -990,7 +990,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://127.0.0.1:5500/shoppingpage.html")
+  location.replace("http://127.0.0.1:5500/bikestore/bikestore/shoppingpage.html")
 }
 
 function clickedFullSus() {
