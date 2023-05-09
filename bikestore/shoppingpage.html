@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everything Bikes</title>
+  <script src="/javascript/shopping.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="/styles/shopping.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+  <script src="/javascript/footer.js" defer></script>
+</head>
+<body>
+  <!--Header scetion-->
+  <header class="header">
+    <div class="size-warning">
+      Best Viewed with a width under 500 pixels<br>(Designed For Mobile)
+    </div>
+    <div class="movable-header">
+      <div class="left-section">
+        <!--Hamnurger menu-->
+        <div class="hamburger-menu">
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </div>
+        <!--remover under this line-->
+        <!--Wishlist Icon-->
+        <div class="wishlist-div">
+          <img class="wishlist-icon" src="/images/heart-outline.png">
+        </div>
+        <!--Left section 1000px+-->
+        <div class="logo-div">
+          <img class="logo-img-laptop" src="/images/Black & White Minimalist Business Logo.png">
+        </div>
+      </div>
+      <div class="middle-section">
+        <!--Logo IMG-->
+        <div class="logo-div">
+          <img class="logo-img" src="/images/Black & White Minimalist Business Logo.png">
+        </div>
+        <!--Middle section 1000px+-->
+        <a href="" class="header-links">Mountain</a>
+        <a href="" class="header-links">Road</a>
+        <a href="" class="header-links">Electric</a>
+        <a href="" class="header-links">BMX</a>
+        <a href="" class="header-links">Parts</a>
+        <a href="" class="header-links">Accessories</a>
+        <a href="" class="header-links">Apparel</a>
+      </div>
+      <div class="right-section">
+        <!--Right section Icons-->
+        <div class="profile-div">
+          <img class="profile-icon" src="/images/profile.icon.png">
+        </div>
+        <div class="search-icon-div">
+          <img class="search-icon" src="/images/search.icon.png">
+        </div>
+        <div class="cart-div">
+          <img class="cart-icon" src="/images/cart.icon.png">
+        </div>
+        <!--Right section 1000px+-->
+        <div>
+          <input class="search-bar" type="search" placeholder="Search...">
+        </div>
+        <div>
+          <img class="profile-icon-laptop" src="/images/profile.icon.png">
+        </div>
+        <div>
+          <img class="wishlist-icon-laptop" src="/images/heart-outline.png">
+        </div>
+        <div>
+          <img class="cart-icon-laptop" src="/images/cart.icon.png">
+        </div>
+      </div>
+    </div>
+
+            <!--Main Categories Menu-->
+            <div class="main-menu">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-mainmenu" src="/images/search.cancel.icon.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="mountain-cat">Mountain<p class="func-section">(only section with products)</p> <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="road-cat">Road <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="electric-cat">Electric <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="parts-cat">Parts <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="accessories-cat">Accessories <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="apparel-cat">Apparel <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub-mountain-->
+            <div class="sub-mountain">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-mountain" src="/images/back-arrow.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="full-suspension">Full Suspension <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="hardtail">Hardtail <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="cross-country">Cross Country <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="trail">Trail <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="enduro">Enduro <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="downhill">Downhill <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="fat-bikes">Fat Bikes <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub road-->
+            <div class="sub-road">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-road" src="/images/back-arrow.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="Performance">Performance <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="Gravel">Gravel <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="Triathelon">Triathelon <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub electric-->
+            <div class="sub-electric">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-electric" src="/images/back-arrow.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="City-Hybrid">City & Hybrid <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="Commuter">Commuter <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="Recreation">Recreation <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div  onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub parts-->
+            <div class="sub-parts">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-parts" src="/images/back-arrow.png">
+              </div>
+    
+    
+              <div class="parts-categories">
+                <div class="parts-main"><p class="parts-titles">Wheels, Tires, Tubes</p>
+                  <div class="Pmain-categoryW" id="road-wheels">Road Wheels <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="mountain-wheels">Mountain Wheels <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="road-tires">Road Tires <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="mountain-tires">Mountain Tires <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="gravel-tires">Gravel Tires <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="city-tires">City Tires <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="tubes">Tubes <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="tubeless-accessories">Tubeless Accessories <p class="arrow">&#62;</p></div>
+                </div>
+    
+                <div class="parts-main"><p class="parts-titles">Lights</p>
+                  <div class="Pmain-categoryW" id="front-lights">Front Bike Lights <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="rear-lights">Rear Bike Lights <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="daytime-lights">Daytime Running Lights <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="light-accessories">Bike Light Accessories <p class="arrow">&#62;</p></div>
+                </div>
+                  
+                <div class="parts-main"><p class="parts-titles">Saddles & Seatposts</p>
+                  <div class="Pmain-categoryW" id="saddles">Saddles <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="saddles-accessories">Saddles Accessories <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="seat-posts">Seat Posts <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="seatpost-accessories">Seat Posts Accessories <p class="arrow">&#62;</p></div>
+                </div>
+    
+                <div class="parts-main"><p class="parts-titles">Handlebars, Stems, & Accessories</p>
+                  <div class="Pmain-categoryW" id="handlebars">Handlebars <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="stems">Stems <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="grips">Grips <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="handlebar-tape">Handlebar Tape <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="handlebar-accessories">Handlebar Accessories <p class="arrow">&#62;</p></div>
+                </div>
+    
+                <div class="parts-main"><p class="parts-titles">Pedals, Drivechain, & Brakes</p>
+                  <div class="Pmain-categoryW" id="pedals">Pedals <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="brakes-levers">Brakes & Levers <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="chains">Chains <p class="arrow">&#62;</p></div>
+                </div>
+    
+                <div class="parts-main"><p class="parts-titles">Service Parts</p>
+                  <div class="Pmain-categoryW" id="bearings">Bearings <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="frame-parts">Frame Parts <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="cable-housing">Cables & Housing <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryG" id="tools-maintenance">Tools & Maintenance <p class="arrow">&#62;</p></div>
+                  <div class="Pmain-categoryW" id="touchup-paint">Touch Up Paint <p class="arrow">&#62;</p></div>
+                </div>
+    
+    
+    
+    
+              </div>
+    
+              <div class="menu-mainheader-selectors">
+                <div  onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub accessories-->
+            <div class="sub-accessories">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-accessories" src="/images/back-arrow.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="pumps">Pumps <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="locks">Locks <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="bike-racks">Bike Racks <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="car-racks">Car Racks <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="bike-storage">Bike Storage <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div  onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--sub apparel-->
+            <div class="sub-apparel">
+              <div class="menu-logo-div">
+                <img class="menu-logo" src="/images/Black & White Minimalist Business Logo.png">
+                <img class="close-apparel" src="/images/back-arrow.png">
+              </div>
+    
+              <div class="categories">
+                <div class="main-categoryG" id="pants">Pants <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="jackets">Jackets <p class="arrow">&#62;</p></div>
+                <div class="main-categoryG" id="helmets">Helmets <p class="arrow">&#62;</p></div>
+                <div class="main-categoryW" id="shoes">Shoes <p class="arrow">&#62;</p></div>
+              </div>
+              <div class="menu-mainheader-selectors">
+                <div onclick="profileHam()" class="main-categoryG" href="">Profile</div>
+              </div>
+            </div>
+    
+            <!--Wishlist Page-->
+            <div class="wishlist-page">
+              <div class="wishlist-contents">
+                <h1 class="wishlist-heading">My Wishlist</h1>
+                <p class="wishlist-subhead"> 0 ITEMS</p>
+              </div>
+            </div>
+
+    <!--profile-popup-->
+    <div class="profile-popup">
+      <div class="profile-popup-contents">
+        <img class="close-profile-popup" src="/images/search.cancel.icon.png">
+        <div class="profile-popup-imgs">
+          <img class="profile-cyclist-img" src="/images/profile-collageimg2.jpg" alt="">
+          <img class="profile-mtnbike-img" src="/images/profile-collageimg.jpg" alt="mountain biking image">
+          <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        </div>
+        <h1 class="profile-title">
+          Sign Up For Exclusive Deals
+        </h1>
+        <h2 class="profile-subtitle">
+          For regular deals on our favorite items and free shipping on all purchases!
+        </h2>
+
+
+        <p class="login-paragraph">Log in or sign up (It's Free!)</p>
+        <div class="quick-login-icons">
+          <div class="signin-icons-div">
+            <img class="signin-icons" src="/images/google-icon.png">
+          </div>
+          <div class="signin-icons-div">
+            <img class="signin-icons" src="/images/apple-icon.png">
+          </div>
+          <div class="signin-icons-div">
+            <img class="signin-icons" src="/images/facebook-icon.png">
+          </div>
+          <div class="signin-icons-div">
+            <img class="signin-icons" src="/images/yahoo-icon.png">
+          </div>
+        </div>
+
+        <div class="email-input-div">
+          <input type="email" class="profile-email" placeholder="EMAIL ADDRESS">
+        </div>
+        <div class="checkbox-div">
+          <input type="checkbox" class="checkbox" checked="true">
+          <label for="checkbox"> Keep me logged in. Applies to all options.</label>
+        </div>
+        <div class="continue-btn-div">
+          <button class="login-btn">
+            <div class="continue-txt">Continue</div>
+            <div class="login-arrow">	&rarr;</div>
+          </button>
+        </div>
+
+        <div class="legal-txt-div">
+          <p class="legal-txt">
+            Sign me up to the Everything Bikes Community, featuring exclusive Everything Bikes offers and news.
+            By clicking the “Continue” button, you are joining our community, will
+            receive emails with the latest news and updates, and agree to the
+            TERMS OF USE and community TERMS AND CONDITIONS and acknowledge you
+            have read the EVERYTHING BIKES PRIVACY POLICY. If you are a New York resident,
+            the Everything Bikes membership may be considered a financial incentive. Please
+            see the Financial Incentives section of our NEW YORK PRIVACY NOTICE
+            for details.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--cart popup-->
+    <div class="cart-header">
+      <p class="cart-title">My Cart</p>
+      <img class="close-cart" src="/images/back-arrow.png">
+    </div>
+    <div class="cart-wrapper">
+      <div class="cart-div">
+      </div>
+    </div>
+  </header>
+
+  <!--search page and search header-->
+  <div class="header-2 hidden header-opacity">
+    <div class="search-header-contents">
+      <input type="search" placeholder="Search..." class="search-inventory">
+      <img id="search-icon" class="wishlist-icon" alt="search magnify glass" src="/images/search.icon.png">
+        <p class="close-search">	&#62;</p>
+    </div>
+  </div>
+  <div class="search-page">
+    <div class="search-contents">
+
+    </div>
+  </div>
+
+<div class="general-content">
+</div>
+
+<div class="category-shop-page">
+</div>
+
+
+<footer class="footer">
+  <div class="signup-wrapper">
+    <div class="sign-up-div">
+      <div class="top-wrapper">
+        <div class="sign-up-top">
+          <h2>JOIN OUR NEWSLETTER</h2>
+            <p>The Everything Bikes newsletter is your best source for updates on sales, coupon codes and each of our blogs as soon as they're published.</p>
+        </div>
+      </div>
+      <div class="bottom-wrapper">
+        <div class="sign-up-bottom">
+          <div class="sign-up-field">
+            <input type="email" class="newsletter-signup" placeholder="Enter Your Email Here">
+            <button class="signup-btn">Sign Up</button>
+          </div>
+          <p>By submitting this form, you consent to sending the above information to Everything Bikes, which will be stored in the United States. For a detailed explanation of Everything Bike's collection and use of personal data please see the Privacy Policy & Terms of Use.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="social-wrapper">
+    <div class="social-icon-div">
+      <div class="icon">
+        <img src="https://www.interstellarrift.com/wiki/images/d/d8/Youtube-logo-png-photo-0.png" class="social-imgs youtube" alt="Youtube logo">
+      </div>
+      <div class="icon">
+        <img src="https://th.bing.com/th/id/R.df9b229e6b9365cd922b840a0326d98b?rik=z06gpUP64wzqdg&pid=ImgRaw&r=0" class="social-imgs instagram" alt="Instagram logo">
+      </div>
+      <div class="icon">
+        <img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" class="social-imgs facebook" alt="Facebook logo">
+      </div>
+      <div class="icon">
+        <img src="https://pnggrid.com/wp-content/uploads/2021/04/Round-TikTok-Logo-1536x1536.png" class="social-imgs tiktok" alt="TikTok logo">
+      </div>
+    </div>
+  </div>
+
+  <nav class="footer-nav">
+    <div class="nav-option1">
+      <div class="nav-selection1">
+        <p class="nav-title">Shop</p>
+        <p  class="nav-arrow" id="arrowTop">&or;</p>
+      </div>
+      <div class="contents1">
+        <p class="footer-nav-item" id="item1">Mountain Bikes</p>
+        <p class="footer-nav-item" id="item2">Road Bikes</p>
+        <p class="footer-nav-item" id="item3">Electric Bikes</p>
+        <p class="footer-nav-item" id="item4">Parts</p>
+        <p class="footer-nav-item" id="item5">Accessories</p>
+        <p class="footer-nav-item" id="item6">Apparel</p>
+      </div>
+    </div>
+
+    <div class="nav-option2">
+      <div class="nav-selection2">
+        <p class="nav-title">Support</p>
+        <p  class="nav-arrow" id="arrowMiddle">&or;</p>
+      </div>
+      <div class="contents2">
+        <p class="footer-nav-item">Customer Support</p>
+        <p class="footer-nav-item">Returns</p>
+        <p class="footer-nav-item">Shipping and Delivery</p>
+        <p class="footer-nav-item">Warranty</p>
+      </div>
+    </div>
+
+    <div class="nav-option3">
+      <div class="nav-selection3">
+        <p class="nav-title">Legal</p>
+        <p  class="nav-arrow" id="arrowBottom">&or;</p>
+      </div>
+      <div class="contents3">
+        <p class="footer-nav-item">Privacy Policy ad Terms of Use</p>
+        <p class="footer-nav-item">New York Transparency Act</p>
+        <p class="footer-nav-item">Cookie Policy</p>
+        <p class="footer-nav-item">Recalls</p>
+      </div>
+    </div>
+  </nav>
+</footer>
+</body>
+</html>
