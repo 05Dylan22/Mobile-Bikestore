@@ -1,0 +1,313 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 280px) {
+/*hero section*/
+    .hero-sectoin {
+      width: 100vw;
+    }
+  
+    .hero-img-div {
+      position: relative;
+      margin-top: 55px;
+      background-image: url(https://th.bing.com/th/id/R.aed3613776b154387997f1dee8f0cf72?rik=OWB2TrSSM%2fyzqg&riu=http%3a%2f%2freviews.mtbr.com%2fwp-content%2fuploads%2f2015%2f08%2fTrek-Bike-Store.jpg&ehk=jwlthDI2POTJW%2fo8FYcZduQorcUnqT0C%2b14BVfBtGtk%3d&risl=&pid=ImgRaw&r=0);
+      background-size: cover;
+      width: 100%;
+      height: 55vh;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  
+    .shipping-popup {
+      position: relative;
+      width: 100vw;
+      height: 125px;
+      background-color: rgb(75, 197, 238);
+      border: 2px solid black;
+      border-top: none;
+      display: none;
+    }
+  
+    .shipping-popup > h4 {
+      font-size: 20px;
+      margin: 0;
+      padding-top: 8px;
+      margin-left: 10px;
+    }
+  
+    .shipping-popup > p {
+      position: absolute;
+      right: 35px;
+      font-size: 13px;
+      margin-top: 0;
+      margin-top: 4px;
+      margin-left: 12px;
+      line-height: 20px;
+      text-align: left;
+      width: 60vw;
+      padding-left: 18px;
+    }
+  
+    .delivery-truck {
+      position: absolute;
+      left: 8px;
+      top: 44px;
+      height: 70px;
+      width: 70px;
+      opacity: 0.6;
+      rotate: -25deg;
+    }
+  
+    .close-shipping {
+      height: 26px;
+      width: 26px;
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      border-radius: 100px;
+      border: 2px solid black;
+      padding: 4px;
+    }
+  
+    .hero-main-content {
+      margin-left: 12px;
+    }
+  
+    .hero-main-content > h1 {
+      margin-bottom: 0;
+    }
+  
+    .hero-main-content > p {
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .hero-main-content > button {
+      width: 50vw;
+      height: 32px;
+      border: 1px solid white;
+      border-radius: 2px;
+      box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.3), -1px -1px 1px 3px rgba(0, 0, 0, 0.3), inset 1px 1px 1px 2px rgba(255, 255, 255, 0.2), inset -1px -1px 1px 2px rgba(255, 255, 255, 0.2);
+      background-color: black;
+      color: white;
+      font-weight: 600;
+    }
+  
+    /*scrolling banner*/
+    .overflow-protection {
+      width: 100vw;
+      margin: auto;
+      height: max-content;
+      margin-top: 54px;
+      overflow: hidden;
+      background-color: black;
+      margin-bottom: 54px;
+    }
+  
+    .scrolling-banner {
+      height: 36px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      display: flex;
+      background-color: rgba(82, 82, 82, 0.6);
+      width: calc(145px *14);
+      align-items: center;
+      overflow: hidden;
+      animation: scroll 20s linear infinite;
+    }
+  
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-189px * 7));
+      }
+    }
+  
+    .banner-logo, .cbs, .tall {
+      margin: 4px 22px;
+      height: 95px;
+      width: 145px;
+    }
+  
+    .cbs {
+      height: 175px;
+      width: 145px;
+    }
+  
+    .tall {
+      height: 35px;
+    }
+
+    /*shop popular categorys*/
+    .popular-shopping {
+      display: grid;
+      justify-content: center;
+    }
+
+    .popular-shopping > h2 {
+      width: 90vw;
+      text-align: center;
+      margin: 0;
+    }
+
+    .shop-category {
+      width: 90vw;
+      height: 115px;
+      margin-top: 24px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 2px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: space-between;
+    }
+
+    .shop1 {
+      background-image: url(https://th.bing.com/th/id/R.80a9aa030be6332d5b026eb7029cf448?rik=u52uCDzXaNzmdQ&riu=http%3a%2f%2ftrailaddiction.com%2fwp-content%2fuploads%2f2014%2f04%2fDownhill-Mountain-Biking-Holiday-France-7.jpg&ehk=lBDqdwNhK%2bCqLbJO7cIe5usUrOmgWbDaDK29Z5cg6gs%3d&risl=&pid=ImgRaw&r=0);
+    }
+
+    .shop2 {
+      background-image: url(https://i.pinimg.com/originals/6a/9f/98/6a9f983a3ff4bc0845361e5facc5c9db.jpg);
+    }
+
+    .shop3 {
+      background-image: url(https://ep1.pinkbike.org/p4pb5300714/p4pb5300714.jpg);
+    }
+    
+    .shop4 {
+      background-image: url(https://th.bing.com/th/id/OIP.JlnJop76pgL5xJ4KYjRXgAHaFj?pid=ImgDet&rs=1);
+    }
+
+    .shop-txt {
+      margin-left: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      width: 60%;
+      text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+    }
+
+    /*blog posts*/
+    .blog-sect-header {
+      margin-top: 64px;
+      margin-left: 12px;
+      text-decoration: underline;
+    }
+
+    .scroll-blogs {
+      display: flex;
+      overflow-x: scroll;
+      width: 90vw;
+      margin-left: 12px;
+    }
+
+    .blog-post {
+      height: 150px;
+      min-width: 225px;
+      margin-left: 74px;
+      margin-bottom: 65px;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid black;
+      box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .blog-post:first-child {
+      margin-left: 0;
+    }
+
+    .scroll-blogs::-webkit-scrollbar{
+      width: 100%;
+      height: 5px;
+    }
+  
+    .scroll-blogs::-webkit-scrollbar-thumb{
+      background-color: black;
+      border-radius: 100px;
+    }
+  
+    .scroll-blogs::-webkit-scrollbar-track{
+      background-color: rgb(195, 195, 195);
+      border-radius: 100px;
+    }
+
+    .description {
+      border: 1px solid black;
+      width: 175px;
+      height: 115px;
+      position: absolute;
+      right: -35px;
+      bottom: -35px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .blog1 {
+      background-image: url(https://i1.wp.com/ondeckby.dinga.com.au/wp-content/uploads/2017/11/mountain-bike-maintenance.jpg?fit=920%2C614&ssl=1);
+    }
+
+    .blog2 {
+      background-image: url(https://th.bing.com/th/id/OIP.4usnnQpMLGmrv6dGK16qsgHaE7?pid=ImgDet&rs=1);
+    }
+
+    .blog3 {
+      background-image: url(https://th.bing.com/th/id/OIP.ww9omeC0IyER5wvM63CKoAHaE7?pid=ImgDet&rs=1);
+    }
+
+    .blog4 {
+      background-image: url(https://www.evergreeneast.org/wp-content/uploads/2014/06/BasicMountainBikeSkillsClass.jpg); 
+    }
+
+    .blog5 {
+      background-image: url(https://rawlingslaw.com/wp-content/uploads/2016/01/bicycle-safety.png);
+    }
+
+    .blog6 {
+      background-image: url(https://th.bing.com/th/id/R.65830d5c849e5a3631d4de382b0f94a8?rik=yMSeW0s5nMZVGg&pid=ImgRaw&r=0);
+    }
+
+    .description > h3 {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .description > p {
+      font-size: 12px;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    /*Mission statement*/
+    .mission-statement {
+      width: 100vw;
+      margin-top: 54px;
+    }
+
+    .mission-statement > h2 {
+      text-align: center;
+    }
+
+    .mission-statement > p {
+      text-align: center;
+      font-size: 14px;
+    }
+}

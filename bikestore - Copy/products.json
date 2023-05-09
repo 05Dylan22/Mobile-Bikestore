@@ -1,0 +1,621 @@
+{
+  "products": {
+    "mountainbikes": {
+      "fullsuspensionbikesgeneral": {
+        "category": "Full Suspension",
+        "type": "Bike",
+        "pagedescription": "Full suspension mountain bikes keep you in control and comfortable over rugged terrain. Suspension solutions have been proven and refined over the years. Active Braking Pivot (ABP) and Mino Link make our full suspension models a class above the competition.",
+        "pageimg": "https://i.pinimg.com/originals/6a/9f/98/6a9f983a3ff4bc0845361e5facc5c9db.jpg"
+    },
+
+    "hardtailbikesgeneral": {
+      "category": "Hard Tail",
+      "type": "Bike",
+      "pagedescription": "Hardtails are the pure mountain machines. They'll connect you to the trail and get you around the trail quickly and efficiently. They're ideal for cross country and trail riding.",
+      "pageimg": "https://th.bing.com/th/id/OIP.Ox_FpoYpNxLujZRVggtmkQHaEs?pid=ImgDet&rs=1"
+    },
+
+    "crosscountrybikesgeneral": {
+    "category": "Cross Country",
+    "type": "Bike",
+    "pagedescription": "From cutting-edge carbon race bikes to versatile models made for loads of fun on light trails, our cross country bikes are fast, lightweight, and efficient.",
+    "pageimg": "https://ep1.pinkbike.org/p4pb5300714/p4pb5300714.jpg"
+    },
+
+    "trailbikesgeneral": {
+      "category": "Trail",
+      "type": "Bike",
+      "pagedescription": "Trail bikes are versatile, light, and exceedingly capable. They climb just as well as they descend, making them ideal for everything from enduro racing to ripping laps after work.",
+      "pageimg": "https://th.bing.com/th/id/OIP.JlnJop76pgL5xJ4KYjRXgAHaFj?pid=ImgDet&rs=1"
+    },
+
+    "endurobikesgeneral": {
+      "category": "Enduro",
+      "type": "Bike",
+      "pagedescription": "Enduro pushes the limits of mountain biking, combining the technical capability of downhill with the endurance of a trail ride. Enduro bikes are more than up to the challenge. We've packed everything we know about racing efficiency, suspension, and durability into one blisteringly fast and capable package.",
+      "pageimg": "https://www.mtbskiingandfitness.com/wp-content/uploads/2020/09/A-Buyers-Guide-to-Enduro-Mountain-Bikes.jpg"
+    },
+
+    "downhillbikesgeneral": {
+      "category": "Downhill",
+      "type": "Bike",
+      "pagedescription": "Our downhill bikes are built to go big and shred hard, whether you're ripping a World Cup downhill or charging through the gravity park.",
+      "pageimg": "https://th.bing.com/th/id/R.80a9aa030be6332d5b026eb7029cf448?rik=u52uCDzXaNzmdQ&riu=http%3a%2f%2ftrailaddiction.com%2fwp-content%2fuploads%2f2014%2f04%2fDownhill-Mountain-Biking-Holiday-France-7.jpg&ehk=lBDqdwNhK%2bCqLbJO7cIe5usUrOmgWbDaDK29Z5cg6gs%3d&risl=&pid=ImgRaw&r=0"
+    },
+
+    "fatbikesgeneral": {
+      "category": "Fat",
+      "type": "Bike",
+      "pagedescription": "Extra-wide fat bike tires let you turn any terrain into your next adventure. All that rubber delivers unbelievable traction and stability no matter where you roam.",
+      "pageimg": "https://th.bing.com/th/id/OIP.5Cf3xzX3GVHMbb2HsblRFgHaEK?pid=ImgDet&rs=1"
+    },
+
+      "fullsuspensionbikes": [
+        {
+      "type": "Bike",
+      "make": "Full Suspension",
+      "name": "5010 Carbon C R Mountain Bike",
+      "price": "$4,549.00",
+      "description": "Designed for riders who prioritize maneuverability but don’t want to sacrifice rollover ability, the 5010 Carbon C R Mountain Bike is an impressively balanced mid-travel trail bike. The mixed wheel design brings the best of both worlds with a 29in front wheel to cruise right over jagged rock rolls while a 27.5in rear wheel delivers precise cornering and jumping control. We get along great with the 130mm of VPP rear travel which features updates to the anti-squat and leverage curve to supply a slightly more planted feel for technical terrain. The head tube angle comes in at 64.9-degrees (low position) to match modern trends for enhanced stability, without going over the top to retain precise steering characteristics for tight switchbacks. Our favorite feature? The Glovebox in-frame storage system stashes our tools, spare tube, and windbreaker right in the downtube so that we don’t have to carry a hip pack.",
+      "sale": "",
+      "id": 1,
+      "reviews": [{
+        "name": "mackie",
+        "location": "denver",
+        "time": "1 Hour ago",
+        "title": "pretty good",
+        "review": "overall good bike and company",
+        "rating": "4 stars",
+        "upvotes": 0,
+        "downvotes": 0
+      },
+      {
+        "name": "jack",
+        "location": "oklahoma",
+        "time": "1 Month ago",
+        "title": "Mid",
+        "review": "Decent ig",
+        "rating": "3 stars",
+        "upvotes": 0,
+        "downvotes": 0
+      }],
+      "images": ["https://th.bing.com/th/id/R.62f9b20ecd18b1d4b12df01a10a23e3d?rik=8vHHyyybmjDmCg&riu=http%3a%2f%2fwww.backcountry.com%2fimages%2fitems%2f900%2fSNZ%2fSNZ001N%2fORAGN.jpg&ehk=A3M4LPAcDyAblVde1n5Q9mW5Q2KmuG1Rd00YED8AUeQ%3d&risl=&pid=ImgRaw&r=0", "https://p.vitalmtb.com/photos/products/14935/photos/16207/s1600_2015_Santa_Cruz_5010_Carbon_R_bike.jpg?1405501424", "https://4.bp.blogspot.com/-ckAJgynetJ0/VZVjFLGXIgI/AAAAAAAAFks/c84yNuJgTJ8/s1600/Santa%2BCruz%2B5010%2BCarbon%2BC%2BR%2BAM%2B3.jpg"]
+    },
+
+    {
+      "make": "Full Suspension",
+      "type": "Bike",
+      "name": "Ripley XT Factory Mountain Bike",
+      "price": "$5,599.20",
+      "description": "As mountain bikes continue to get longer and slacker, many riders find themselves gravitating towards balanced options like the Ripley XT Factory Mountain Bike. With 120mm of DW-Link travel, it can still get loose on descents, but the 66.5-degree head tube angle still makes the bike plenty nimble for steep switchbacks and tight terrain. The steep 76-degree seat tube angle puts us in an optimal position for pedaling all day long, and the DW-Link rear suspension is incredibly supportive while also producing excellent rear-wheel traction on techy climbs. The beauty of DW-Link is that it's just as good on the up as it is on the down, providing great cornering grip, and Ibis specs a 130mm travel fork to further boost the bike's descending capabilities.",
+      "sale": "",
+      "id": 2,
+      "reviews": [],
+      "images": ["https://cdn.shopify.com/s/files/1/2318/5263/products/BMT14736_CM_02_800x800.jpg?v=1604118801", "https://th.bing.com/th/id/OIP.wXUbuBjYUA2T0biswi5legHaEK?pid=ImgDet&rs=1", "https://p.vitalmtb.com/photos/stories/2019/04/30/full_ripley4_build_blue_xtr_257605.jpg"]
+    },
+
+    {
+      "make": "Full Suspension",
+      "type": "Bike",
+      "name": "Trek Remedy 9.9 Mountain Bike - 2019, 19.5",
+      "price": "$5,289.99",
+      "id": 3,
+      "description": "The Trek Remedy is no spring chicken. It’s been around the block, seen what trails have to offer, and translated into a rideable platform. Green to double blacks approved! The slack geometry, 27.5 wheels, and long travel will impress you on the downhill, but this bike will surprise you on the uphill too. The trail geo isn’t extreme in any direction, but it’s fun riding in every direction. Tweak the geometry .5° by flipping the Mino-Link on the seat stay to cater to varying trail demands. If you've been struggling to find your next bike, this might be the Remedy.",
+      "sale": "15%",
+      "reviews": [],
+      "images": ["https://cdn.shopify.com/s/files/1/2318/5263/products/BMT14720_CM_02_506aad67-bb49-4576-8d01-04741d7fecf4_800x800.jpg?v=1604120096","https://th.bing.com/th/id/OIP.zfcwwh61jM589yCZ_MfGEQHaEK?pid=ImgDet&rs=1", "https://www.allterraincycles.co.uk/Images/Original/155651_2.jpg"]
+    }
+      ],
+
+      "hardtailbikes": [
+        {
+          "make": "Hardtail",
+          "type": "Bike",
+          "name": "Chameleon MX D Mountain Bike",
+          "price": "$2,099.00",
+          "description": "Built to tackle whatever kind of riding we can dream up, the Santa Cruz Chameleon MX is our go-to hardtail for everything from urban adventures to ripping hot laps after work. The updated geometry and mixed-wheel setup lets this bike turn even the most mundane trails into a good time. The longer and slacker geometry features a 65-degree headtube angle inspiring extra confidence on the steep stuff, and a long wheelbase for stability at speed. The 29-inch wheel up front keeps us rolling over chunky terrain with ease, while the 27.5-inch wheel out back keeps things playful for side hits, urban jibs, and drawn-out manuals.",
+          "sale": "35%",
+          "id": 4,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.j-xrStK5bOl1nWigZHhs9wHaF2?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.7af4c5ab304631d96fa926375f580d26?rik=A%2bCSonMUx2saSw&pid=ImgRaw&r=0", "https://i.pinimg.com/originals/e3/52/9f/e3529f679b750197a72d910f2a949e07.jpg"]
+        },
+
+        {
+          "make": "Hardtail",
+          "type": "Bike",
+          "name": "Specialized 2022 Specialized Rockhopper Comp 29 Hardtail Mountain Bike",
+          "price": "$764.99",
+          "id": 5,
+          "description": "A heart of gold, presented in lightweight yet durable Premium A1 Aluminum, the Rockhopper’s butted aluminum frame features hydroformed top and downtubes in order to keep weight low and strength high, all while providing increased standover clearance, slick internal cable routing and dropper-post compatibility. With the goal of making sure that the Rockhopper offers both the best fit and best performance for every person, no matter their measure, each Rockhopper frame size is paired with the optimal wheel size. The result is a Rockhopper to fit every rider and the assurance that every Rockhopper is rolling on the best-handling wheel for its frame size. Bringing Rx Tune to Rockhopper for the very first time, the lockout-equipped SR Suntour XCM with custom Multi-Circuit damping brings size-specific travel and spring rates to the show in a performance that’s sure to impress while also ensuring consistent geometry, handling and suspension performance, regardless of frame or wheel size. Beautifully beastly, SRAM Level hydraulic disc brakes pack a mean bite but deliver their power with a refined, intuitive feel to make for a package that punches way above its pay grade. Keep things simple with a durable 1x MicroSHIFT drivetrain that offers plenty of range along with a clutch-equipped rear derailleur that keeps your ride quite—and your chain on. Pair dead-reliable hubs from Formula with 25-millimeter internal diameter, hookless Stout rims for a wheelset hat-trick: strong, light and durable.", 
+          "sale": "",
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.Y8_OKvrIBI5VtEoRn-MBzwHaEK?pid=ImgDet&rs=1", "https://az1p22uc.cdn.imgeng.in/content/products/20220107_123145_remastered.jpg_04d046e1d77b2fce7c4873c8f2acd09e.jpg", "https://th.bing.com/th/id/R.ab19a89f03d17e0e30d032dc6e3e0d68?rik=EFnqaPkWsXSGbQ&pid=ImgRaw&r=0"]
+        },
+
+        {
+          "make": "Hardtail",
+          "type": "Bike",
+          "name": "Diamondback 2022 Hook 27.5 Inch Hardtail Mountain Bike",
+          "price": "$699.99",
+          "description": "If you could only have one bike — just one — the 2022 DiamondBack Hook 27.5 Inch Hardtail Mountain Bike would be the perfect choice. For starters, it’s capable of, well, just about anything you have the nerve for. That includes quick rips on your local trails, all-day suffer fests that have you pedaling away into terra incognita, and everything in between. DB equipped the Hook with the same low-slung, modern frame as its well-heeled Line and Sync’r siblings. Long in the front, short in the back, low and maneuverable — the Hook is deft and precise on tight trails yet rock steady when you are going Mach Chicken down the steepest descents. The most impressive thing about the Hook, however, might just be its price. DB kept the price tag from burning a hole in your checking account by equipping the Hook with awesome yet affordable components, including a plush 120mm fork, simple and effective single-ring drivetrain, powerful disc brakes, and quick-rolling 27.5 wheels.",
+          "sale": "",
+          "id": 6,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.svbIZIG3NIr8Tktc4wzAFwHaEy?pid=ImgDet&rs=1", "https://images-na.ssl-images-amazon.com/images/I/51FJW16M1rL.jpg", "https://photos.offerup.com/lbC7iRQmhQQk4UqK3dvlRjWiWYs=/600x450/f14a/f14a0c9d0e75483391319dce4388947f.jpg"]
+        }
+      ],
+
+      "crosscountrybikes": [
+        {
+          "make": "Cross Country",
+          "type": "Bike",
+          "name": "Chameleon MX S Mountain Bike",
+          "price": "$2,999.00",
+          "description": "The Chameleon has been among our top picks for hardtail trail bikes for some time thanks to its even-handed composure, and the Chameleon MX brings an added fun factor into the equation. The mixed-wheel version allows for effortless Scandinavian flicks, super fun jumping characteristics, and possibly even a better-fitting bike for smaller riders. This S-build features SRAM GX drivetrain components for crisp shifting and performance-focused G2 R hydraulic disc brakes for taking on steeper trails with confidence.",
+          "sale": "",
+          "id": 7,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/R.217e3e0d09b547bbbaeb1ad5433ea18b?rik=QlGQ9qZcjGAvfw&riu=http%3a%2f%2fwww.backcountry.com%2fimages%2fitems%2f900%2fSNZ%2fSNZ002P%2fDARBLU.jpg&ehk=HlKrLQ4gqv4vzYc987TSNSAccmZcT2443EieS64Kdis%3d&risl=&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.d2f5629062539938a45da3ba5ddb460b?rik=uFQPrF7TYWIBiw&riu=http%3a%2f%2fwww.bikepacking.com%2fwp-content%2fuploads%2f2019%2f01%2fsanta-cruz-chameleon-c-review_14.jpg&ehk=BbnO3hmK%2fgxGUgJYNEfoxIK2Gx6EanQ14h86ZqmjuFc%3d&risl=&pid=ImgRaw&r=0", "https://www.leisurelakesbikes.com/images/santacruz_chameleon_alloy_d_fog.jpg"]
+        },
+
+        {
+          "make": "Cross Country",
+          "type": "Bike",
+          "name": "2023 Polygon Xtrada 6 1x11 - Mountain Bike",
+          "price": "$749.00",
+          "description": "Light, durable, butted, and hydroformed 6061 aluminum frame features 73mm threaded bottom bracket, internal and cable routing. Using most of the modern features, Xtrada models utilize slack head tubes and steep seat tube angles to ensure that the bike handles perfectly and travels effortlessly up and down the mountain.",
+          "sale": "",
+          "id": 8,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/R.e24f297b0e173b6a0201af12cc6ba723?rik=LfKe4GWdxU7rzw&pid=ImgRaw&r=0", "https://th.bing.com/th/id/OIP.QZhlo_MwRp7WWYVcidJWDAHaEj?pid=ImgDet&rs=1", "https://ik.imagekit.io/r3wxc114qv/assets/alt_1/4875592.jpg?20200907152237"]
+        },
+
+        {
+          "make": "Cross Country",
+          "type": "Bike",
+          "name": "VITUS RAPIDE FS CRX MOUNTAIN BIKE",
+          "price": "$4,199.00",
+          "description": "The Rapide FS CRX is a full-carbon full suspension XC bike designed for knock-your-socks-off speed uphill and down. It’s light — just 23.5 lbs for a medium with tubeless tires — efficient and remarkably capable in technical terrain. The Rapide FS uses a flex pivot suspension design that shaves weight, requires less hardware and gives the bike a notably lively characteristic downhill. It also minimizes pedal bob, enhances comfort and improves performance under braking. Don’t just take our word for it, the Rapide FS CRX’s handling has earned it rave reviews from independent cycling media.",
+          "sale": "",
+          "id": 9,
+          "reviews": [],
+          "images": ["https://cdn.shopify.com/s/files/1/0365/1272/7173/products/Vitus_Rapide-FS-CRX-Mountain-Bike-2021_02_1200x1200.jpg?v=1612800643", "https://p.vitalmtb.com/photos/products/28818/photos/55953/s1600_2020_Vitus_Rapide_CRX.jpg?1580143683", "https://th.bing.com/th/id/OIP.58wcRs56dB94RKvXxdQTggHaDF?pid=ImgDet&rs=1"]
+        }
+      ],
+
+      "trailbikes": [
+        {
+          "make": "Trail",
+          "type": "Bike",
+          "name": "Trail 429 Pro XT/XTR Mountain Bike",
+          "price": "$7,499.00",
+          "description": "Blurring the lines between, trail, cross country, and enduro, the Trail 429 Pro XT/XTR Mountain Bike keeps on surprising us with its adaptability. Modeled after its world-cup winning and cross-country driven Mach 4 SL, the frame redesign drops 300g off a size large frame compared to the previous generation of Trail 429. We don’t want to get caught in a trap of climbs like a goat, descends like a demon cliches, but with the new 429, it's hard to describe the feeling in a simpler way.",
+          "sale": "5%",
+          "id": 10,
+          "reviews": [],
+          "images": ["https://ik.imagekit.io/gobikes/trail-429-27-5-plus-pro-xtxtr-12-speed-2019-8d5e64e99.jpg?tr=w-1200,t-true", "https://p.vitalmtb.com/photos/products/33193/photos/72199/s1600_Three_Quarter_Hero_Silver.jpg?1614071123", "https://p.vitalmtb.com/photos/users/109/photos/101020/original_Pivot_Mens.jpg?1452893627"]
+        },
+
+        {
+          "make": "Trail",
+          "type": "Bike",
+          "name": "Ripmo XT Mountain Bike",
+          "price": "$7,299.00",
+          "description": "This mid-tier build kit starts with Shimano's 12-speed XT drivetrain for crisp, reliable shifting, and a wide gear range to get up those climbs. A Fox Factory 38 fork brings along 160mm of travel for eating up big hits and adding torsional stiffness to keep us on our line in high-speed sections. Ibis spec'd their in-house Blackbird Send wheelset to make pinch flats a thing of the past, and a set of Shimano XT 4-piston brakes add high stopping power. The Ibis Ripmo XT is a one-bike quiver for riders looking to hit the bike park one day and tackle an all-day trail mission the next.",
+          "sale": "",
+          "id": 11,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/R.1e465fdf783c337bda22697519181da1?rik=zoswCRSkdIhGUQ&pid=ImgRaw&r=0", "https://cdn.shopify.com/s/files/1/0904/4132/files/ripmo2of4_f6aa7ed1-52b1-47e5-ae4d-3806c74af4dc.jpg?v=1543614545", "https://p.vitalmtb.com/photos/stories/2018/03/26/max_IMC1748_845322.jpg"]
+        },
+
+        {
+          "make": "Trail",
+          "type": "Bike",
+          "name": "MTR 8.9",
+          "price": "$1,825.00",
+          "description": "The MTR 8.9 offers a beautifully balanced specification, using the same frame geometry and rear suspension set up as the 9.0, but with our X7 triple butted alloy. Aggressive trail riding places big demands on your equipment, and the high-performing kit on the MTR 8.9 is more than up to the task.",
+          "sale": "",
+          "id": 12,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.1kgKho85D0rCTPHYyiYNpwHaHa?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.9ZC21Fe33HfJo8Kn6oprVgHaEK?pid=ImgDet&rs=1", "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/boardman-mtr-89-01-1544188600384-1adjcuj8rojyb-d6ace63.jpg?quality=90&resize=620,413"]
+        }
+      ],
+
+      "endurobikes": [
+        {
+          "make": "Enduro",
+          "type": "Bike",
+          "name": "SB160 C1 SLX Mountain Bike",
+          "price": "$6,700.00",
+          "description": "The new Yeti SB160 is a race-bred enduro machine just begging to carry us to the top of the podium. With 160mm of Switch Infinity rear travel, this rig has one goal. Get down as fast as possible. 160mm of Switch Infinity rear travel eats up big hits while still letting us pedal up to the top efficiently, while the refined C/Series carbon layup strikes a balance between impressive weight savings and exceptional durability. Yeti’s engineers added size-specific chain stays and seat tube angles to create a consistent ride feel across the entire size range, while the 64-degree headtube angle and big 29in wheels give us precision handling and stability at speed so we can send it with confidence.",
+          "sale": "",
+          "id": 13,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.3_mVQR12qZytKAl_dHTuUgHaHa?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.h_bwP-XaOuT4uvM3wMCsGQHaE7?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.9LjVyLcb3MShtGuUTYHN0wHaEp?pid=ImgDet&rs=1"]
+        },
+
+        {
+          "make": "Enduro",
+          "type": "Bike",
+          "name": "Slash 9.9 XX1 Flight Attendant",
+          "price": "$10,749.99",
+          "description": "Slash 9.9 is the fastest enduro mountain bike in the lineup, so it's no surprise it's the go-to ride for the pros of Trek Factory Racing Enduro. A full carbon frame, all-new hard-charging suspension with RockShox Flight Attendant, fast-rolling carbon wheels, and a SRAM wireless electronic drivetrain and dropper make this top-of-the-line ride the undisputed king of enduro.",
+          "sale": "",
+          "id": 14,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/R.23fb60ee9ebdc20b86acaf301be98686?rik=ekBy%2fMIN6oU%2fQg&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.8ae5f1597d287ef86a83b5012e5fe675?rik=88k3GH4QdEnzqQ&pid=ImgRaw&r=0", "https://th.bing.com/th/id/OIP.eT5NRrllST9l155eHglxmAHaFj?pid=ImgDet&rs=1"]
+        },
+
+        {
+          "make": "Enduro",
+          "type": "Bike",
+          "name": "Specialized Enduro Pro Mountain Bike - 2018, Large",
+          "price": "$4,399.99",
+          "description": "The Specialized Enduro is a warhorse built to charge. Big-rig suspension can cushion bombed-out berms and rock gardens, but still climbs with no problem. The Enduro is more intense than the Stumpy Evo, but not as downhill-y as the Demo. Ridden by world class pros, to the weekend warrior, The Enduro is the techy trail chaser's rig of choice, and slays the ups and downs of what you can throw at it.",
+          "sale": "",
+          "id": 15,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.hcOaIkanlIc0YmWyIlLyDwHaEH?pid=ImgDet&rs=1", "https://cdn.shopify.com/s/files/1/2318/5263/products/BMT13491_CT_02_2048x2048.jpg?v=1576894865", "https://th.bing.com/th/id/R.12277274d1550ea31002be68077d56c3?rik=YVnTh%2fpT8LAl5A&pid=ImgRaw&r=0"]
+        }
+      ],
+
+      "downhillbikes": [
+        {
+          "make": "Downhill",
+          "type": "Bike",
+          "name": "2022 Canyon Sender CFR Mullet Underdog Bike",
+          "price": "$5,299.00",
+          "description": "These bikes can be used by technically adept and experienced riders to tackle very challenging, extremely steep terrain with a high number of obstacles. In this category, big jumps are to be expected as well as intensive use in bike parks or on downhill courses. It is essential that these bikes are fully examined for any potential damage after every ride. Further use when using damaged parts could lead to a major component malfunction. In addition, safety-relevant parts should be replaced at regular intervals. Wearing appropriate protective gear is absolutely essential. This category includes long-travel full-suspension bikes as well as dirt bikes.",
+          "sale": "",
+          "id": 16,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.TY2bBHmXU6I_sKphjWXdgwHaEF?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.GxbkB_qeAS2hOFm5lXlDcgHaEK?pid=ImgDet&rs=1", "https://www.mtbtech.it/wp-content/uploads/2022/08/Canyon_sender22_downhill_dh-1-1024x682.jpg"]
+        },
+
+        {
+          "make": "Downhill",
+          "type": "Bike",
+          "name": "Demo Expert",
+          "price": "$5,600",
+          "description": "Pair an irrational appreciation for speed with the unmatched versatility of being able to run a traction-loving 29-inch front wheel and a snappy 27.5-inch rear, and you have the fastest, most capable Demo to date. The Demo Expert adds planted, confident control to the mix with an assist from RockShox’s BoXXer Select 29 fork featuring their DH DebonAir spring and a Super Deluxe Select Coil shock offering external rebound adjustment. Should your riding style or terrain require, the Demo's adjustable rear end means 29-inch rear wheel compatibiity is on deck, ready to deliver.",
+          "sale": "",
+          "id": 17,
+          "reviews": [],
+          "images": ["https://s7d5.scene7.com/is/image/Specialized/94519-30_DEMO_EXPERT-29_STRMGRY-RKTRED_HERO", "https://th.bing.com/th/id/OIP.NjhZdftgpOjAySU_BSnRBAHaGB?pid=ImgDet&rs=1", "https://content.26in.fr/p/classifieds/5/3/53956/thumb-l.jpg"]
+        },
+
+        {
+          "make": "Downhill",
+          "type": "Bike",
+          "name": "ROCKY MOUNTAIN SLAYER CARBON 50 29 BIKE 2022",
+          "price": "$4,688.94",
+          "description": "When it comes to freeriding, you'll want a bike that can handle it all. These bikes will need to be able to handle jumps, quick turns, rocky terrain, and dropoffs. The Rocky Mountain Slayer Carbon 50 29 Bike was right there at the start of the freeride movement. It is longer and slacker than ever. The SMOOTHWALL Carbon frame uses 180mm of travel on the front and 170mm of travel on the rear. The frame features integrated frame protection, internal cable routing, and RIDE-4 Adjustable Geometry that lets you dial in the perfect geometry.",
+          "sale": "",
+          "id": 18,
+          "reviews": [],
+          "images": ["https://p.vitalmtb.com/photos/products/34806/photos/80761/s1600_photo_495541.jpg?1629430895", "https://th.bing.com/th/id/OIP.04DVBw6So_8Z385hqNbKjQHaEK?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.e68f714d6c24ab92951a8787e21605ab?rik=dx6NETwE%2fIfXnA&pid=ImgRaw&r=0"]
+        }
+      ],
+
+      "fatbikes": [
+        {
+          "make": "Fat",
+          "type": "Bike",
+          "name": "Salsa Mukluk Deore 11 Fat-Tire Bike",
+          "price": "$1,718.93",
+          "description": "Designed and engineered to excel in a wide variety of conditions, the Salsa Mukluk Deore 11 fat-tire bike can go more places so you can extend your adventures for as long as you feel like pedaling.",
+          "sale": "25%",
+          "id": 19,
+          "reviews": [],
+          "images": ["https://lh3.googleusercontent.com/1c6DF85-BAKSbe7YjHUbF5TbsV-Seexfrg6Dga0_E-CdsZCvmWM25JReOCT3XU0j1lWC00x6S6TTApofBymhjrp2KrQJDIzWrxKE2cWG11Y=s390-l75-e7", "https://lh3.googleusercontent.com/f9XCgSSK01KjNnPMDb--PyP9G2o37qK9wPTBQ07TqidU9Ro4ImljSUyaHXAVcGm6bU7KJuHCh4zUIbeLX6tIbD36ppL_EXScUxbbQAD2Wg=s390-l75-e7", "https://i.redd.it/9x3svkd92zp51.jpg"]
+        },
+
+        {
+          "make": "Fat",
+          "type": "Bike",
+          "name": "Farley 9.6",
+          "price": "$3,699.99",
+          "description": "Farley 9.6 is a capable and ready carbon fat bike for riders who want to charge through snow drifts and sand dunes. Its OCLV carbon frame keeps your ride light, while huge 4.5-inch tires keep you floating in the deep stuff. It's built up with a SRAM GX Eagle drivetrain that you can count on for more precise shifting and strong braking power — even when things get icy.",
+          "sale": "",
+          "id": 20,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.QGe5dHXk8D6GSMvDalfoUgHaEc?pid=ImgDet&rs=1", "https://images.internetstores.de/products/1316497/02/ee5eff/trek-farley-96-carbon-blue-smoke-7.jpg?forceSize=true&forceAspectRatio=true&useTrim=true&size=613x613", "https://files.bikeindex.org/uploads/Pu/176524/11D00738-4E40-48E5-9D32-4F4D29B50AE2.jpeg"]
+        },
+
+        {
+          "make": "Fat",
+          "type": "Bike",
+          "name": "Specialized 2020 Fatboy",
+          "price": "$4,999.99",
+          "description": "Going fat isn't just a fun way to ride—it's a ride revolution. The security and control that the wheel system found on our Fatboy provides is unparalleled. You get dramatically more traction, grip, and floatation than with traditional mountain tires, all without sacrificing much to climbing efficiency. The end result is easy to explain—you have way more fun. And to make sure of it, we built the Fatboy with a durable list of components that are low-maintenance and eager to perform season after season. Have more fun—go fat.",
+          "sale": "25%",
+          "id": 21,
+          "reviews": [],
+          "images": ["https://th.bing.com/th/id/OIP.mT4dGhXQ1k8plNCb3Mu4dgHaE8?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.3a6131a9d34705ed793cbad41596b2bf?rik=J2ybogIij8fhQg&pid=ImgRaw&r=0", "https://ep1.pinkbike.org/p4pb19426870/p4pb19426870.jpg"]
+        }
+      ]
+
+    }
+  },
+
+  "searchableterms": [
+    {
+      "make": "Fat",
+      "type": "Bike",
+      "name": "Salsa Mukluk Deore 11 Fat-Tire Bike",
+      "price": "$1,718.93",
+      "description": "Designed and engineered to excel in a wide variety of conditions, the Salsa Mukluk Deore 11 fat-tire bike can go more places so you can extend your adventures for as long as you feel like pedaling.",
+      "sale": "25%",
+      "reviews": [],
+      "images": ["https://lh3.googleusercontent.com/1c6DF85-BAKSbe7YjHUbF5TbsV-Seexfrg6Dga0_E-CdsZCvmWM25JReOCT3XU0j1lWC00x6S6TTApofBymhjrp2KrQJDIzWrxKE2cWG11Y=s390-l75-e7", "https://lh3.googleusercontent.com/f9XCgSSK01KjNnPMDb--PyP9G2o37qK9wPTBQ07TqidU9Ro4ImljSUyaHXAVcGm6bU7KJuHCh4zUIbeLX6tIbD36ppL_EXScUxbbQAD2Wg=s390-l75-e7", "https://i.redd.it/9x3svkd92zp51.jpg"]
+    },
+
+    {
+      "make": "Fat",
+      "type": "Bike",
+      "name": "Farley 9.6",
+      "price": "$3,699.99",
+      "description": "Farley 9.6 is a capable and ready carbon fat bike for riders who want to charge through snow drifts and sand dunes. Its OCLV carbon frame keeps your ride light, while huge 4.5-inch tires keep you floating in the deep stuff. It's built up with a SRAM GX Eagle drivetrain that you can count on for more precise shifting and strong braking power — even when things get icy.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.QGe5dHXk8D6GSMvDalfoUgHaEc?pid=ImgDet&rs=1", "https://images.internetstores.de/products/1316497/02/ee5eff/trek-farley-96-carbon-blue-smoke-7.jpg?forceSize=true&forceAspectRatio=true&useTrim=true&size=613x613", "https://files.bikeindex.org/uploads/Pu/176524/11D00738-4E40-48E5-9D32-4F4D29B50AE2.jpeg"]
+    },
+
+    {
+      "make": "Fat",
+      "type": "Bike",
+      "name": "Specialized 2020 Fatboy",
+      "price": "$4,999.99",
+      "description": "Going fat isn't just a fun way to ride—it's a ride revolution. The security and control that the wheel system found on our Fatboy provides is unparalleled. You get dramatically more traction, grip, and floatation than with traditional mountain tires, all without sacrificing much to climbing efficiency. The end result is easy to explain—you have way more fun. And to make sure of it, we built the Fatboy with a durable list of components that are low-maintenance and eager to perform season after season. Have more fun—go fat.",
+      "sale": "25%",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.mT4dGhXQ1k8plNCb3Mu4dgHaE8?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.3a6131a9d34705ed793cbad41596b2bf?rik=J2ybogIij8fhQg&pid=ImgRaw&r=0", "https://ep1.pinkbike.org/p4pb19426870/p4pb19426870.jpg"]
+    },
+
+    {
+      "make": "Downhill",
+      "type": "Bike",
+      "name": "2022 Canyon Sender CFR Mullet Underdog Bike",
+      "price": "$5,299.00",
+      "description": "These bikes can be used by technically adept and experienced riders to tackle very challenging, extremely steep terrain with a high number of obstacles. In this category, big jumps are to be expected as well as intensive use in bike parks or on downhill courses. It is essential that these bikes are fully examined for any potential damage after every ride. Further use when using damaged parts could lead to a major component malfunction. In addition, safety-relevant parts should be replaced at regular intervals. Wearing appropriate protective gear is absolutely essential. This category includes long-travel full-suspension bikes as well as dirt bikes.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.TY2bBHmXU6I_sKphjWXdgwHaEF?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.GxbkB_qeAS2hOFm5lXlDcgHaEK?pid=ImgDet&rs=1", "https://www.mtbtech.it/wp-content/uploads/2022/08/Canyon_sender22_downhill_dh-1-1024x682.jpg"]
+    },
+
+    {
+      "make": "Downhill",
+      "type": "Bike",
+      "name": "Demo Expert",
+      "price": "$5,600",
+      "description": "Pair an irrational appreciation for speed with the unmatched versatility of being able to run a traction-loving 29-inch front wheel and a snappy 27.5-inch rear, and you have the fastest, most capable Demo to date. The Demo Expert adds planted, confident control to the mix with an assist from RockShox’s BoXXer Select 29 fork featuring their DH DebonAir spring and a Super Deluxe Select Coil shock offering external rebound adjustment. Should your riding style or terrain require, the Demo's adjustable rear end means 29-inch rear wheel compatibiity is on deck, ready to deliver.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://s7d5.scene7.com/is/image/Specialized/94519-30_DEMO_EXPERT-29_STRMGRY-RKTRED_HERO", "https://th.bing.com/th/id/OIP.NjhZdftgpOjAySU_BSnRBAHaGB?pid=ImgDet&rs=1", "https://content.26in.fr/p/classifieds/5/3/53956/thumb-l.jpg"]
+    },
+
+    {
+      "make": "Downhill",
+      "type": "Bike",
+      "name": "ROCKY MOUNTAIN SLAYER CARBON 50 29 BIKE 2022",
+      "price": "$4,688.94",
+      "description": "When it comes to freeriding, you'll want a bike that can handle it all. These bikes will need to be able to handle jumps, quick turns, rocky terrain, and dropoffs. The Rocky Mountain Slayer Carbon 50 29 Bike was right there at the start of the freeride movement. It is longer and slacker than ever. The SMOOTHWALL Carbon frame uses 180mm of travel on the front and 170mm of travel on the rear. The frame features integrated frame protection, internal cable routing, and RIDE-4 Adjustable Geometry that lets you dial in the perfect geometry.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://p.vitalmtb.com/photos/products/34806/photos/80761/s1600_photo_495541.jpg?1629430895", "https://th.bing.com/th/id/OIP.04DVBw6So_8Z385hqNbKjQHaEK?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.e68f714d6c24ab92951a8787e21605ab?rik=dx6NETwE%2fIfXnA&pid=ImgRaw&r=0"]
+    },
+
+    {
+      "make": "Enduro",
+      "type": "Bike",
+      "name": "SB160 C1 SLX Mountain Bike",
+      "price": "$6,700.00",
+      "description": "The new Yeti SB160 is a race-bred enduro machine just begging to carry us to the top of the podium. With 160mm of Switch Infinity rear travel, this rig has one goal. Get down as fast as possible. 160mm of Switch Infinity rear travel eats up big hits while still letting us pedal up to the top efficiently, while the refined C/Series carbon layup strikes a balance between impressive weight savings and exceptional durability. Yeti’s engineers added size-specific chain stays and seat tube angles to create a consistent ride feel across the entire size range, while the 64-degree headtube angle and big 29in wheels give us precision handling and stability at speed so we can send it with confidence.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.3_mVQR12qZytKAl_dHTuUgHaHa?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.h_bwP-XaOuT4uvM3wMCsGQHaE7?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.9LjVyLcb3MShtGuUTYHN0wHaEp?pid=ImgDet&rs=1"]
+    },
+
+    {
+      "make": "Enduro",
+      "type": "Bike",
+      "name": "Slash 9.9 XX1 Flight Attendant",
+      "price": "$10,749.99",
+      "description": "Slash 9.9 is the fastest enduro mountain bike in the lineup, so it's no surprise it's the go-to ride for the pros of Trek Factory Racing Enduro. A full carbon frame, all-new hard-charging suspension with RockShox Flight Attendant, fast-rolling carbon wheels, and a SRAM wireless electronic drivetrain and dropper make this top-of-the-line ride the undisputed king of enduro.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/R.23fb60ee9ebdc20b86acaf301be98686?rik=ekBy%2fMIN6oU%2fQg&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.8ae5f1597d287ef86a83b5012e5fe675?rik=88k3GH4QdEnzqQ&pid=ImgRaw&r=0", "https://th.bing.com/th/id/OIP.eT5NRrllST9l155eHglxmAHaFj?pid=ImgDet&rs=1"]
+    },
+
+    {
+      "make": "Enduro",
+      "type": "Bike",
+      "name": "Specialized Enduro Pro Mountain Bike - 2018, Large",
+      "price": "$4,399.99",
+      "description": "The Specialized Enduro is a warhorse built to charge. Big-rig suspension can cushion bombed-out berms and rock gardens, but still climbs with no problem. The Enduro is more intense than the Stumpy Evo, but not as downhill-y as the Demo. Ridden by world class pros, to the weekend warrior, The Enduro is the techy trail chaser's rig of choice, and slays the ups and downs of what you can throw at it.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.hcOaIkanlIc0YmWyIlLyDwHaEH?pid=ImgDet&rs=1", "https://cdn.shopify.com/s/files/1/2318/5263/products/BMT13491_CT_02_2048x2048.jpg?v=1576894865", "https://th.bing.com/th/id/R.12277274d1550ea31002be68077d56c3?rik=YVnTh%2fpT8LAl5A&pid=ImgRaw&r=0"]
+    },
+
+    {
+      "make": "Trail",
+      "type": "Bike",
+      "name": "Trail 429 Pro XT/XTR Mountain Bike",
+      "price": "$7,499.00",
+      "description": "Blurring the lines between, trail, cross country, and enduro, the Trail 429 Pro XT/XTR Mountain Bike keeps on surprising us with its adaptability. Modeled after its world-cup winning and cross-country driven Mach 4 SL, the frame redesign drops 300g off a size large frame compared to the previous generation of Trail 429. We don’t want to get caught in a trap of climbs like a goat, descends like a demon cliches, but with the new 429, it's hard to describe the feeling in a simpler way.",
+      "sale": "5%",
+      "reviews": [],
+      "images": ["https://ik.imagekit.io/gobikes/trail-429-27-5-plus-pro-xtxtr-12-speed-2019-8d5e64e99.jpg?tr=w-1200,t-true", "https://p.vitalmtb.com/photos/products/33193/photos/72199/s1600_Three_Quarter_Hero_Silver.jpg?1614071123", "https://p.vitalmtb.com/photos/users/109/photos/101020/original_Pivot_Mens.jpg?1452893627"]
+    },
+
+    {
+      "make": "Trail",
+      "type": "Bike",
+      "name": "Ripmo XT Mountain Bike",
+      "price": "$7,299.00",
+      "description": "This mid-tier build kit starts with Shimano's 12-speed XT drivetrain for crisp, reliable shifting, and a wide gear range to get up those climbs. A Fox Factory 38 fork brings along 160mm of travel for eating up big hits and adding torsional stiffness to keep us on our line in high-speed sections. Ibis spec'd their in-house Blackbird Send wheelset to make pinch flats a thing of the past, and a set of Shimano XT 4-piston brakes add high stopping power. The Ibis Ripmo XT is a one-bike quiver for riders looking to hit the bike park one day and tackle an all-day trail mission the next.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/R.1e465fdf783c337bda22697519181da1?rik=zoswCRSkdIhGUQ&pid=ImgRaw&r=0", "https://cdn.shopify.com/s/files/1/0904/4132/files/ripmo2of4_f6aa7ed1-52b1-47e5-ae4d-3806c74af4dc.jpg?v=1543614545", "https://p.vitalmtb.com/photos/stories/2018/03/26/max_IMC1748_845322.jpg"]
+    },
+
+    {
+      "make": "Trail",
+      "type": "Bike",
+      "name": "MTR 8.9",
+      "price": "$1,825.00",
+      "description": "The MTR 8.9 offers a beautifully balanced specification, using the same frame geometry and rear suspension set up as the 9.0, but with our X7 triple butted alloy. Aggressive trail riding places big demands on your equipment, and the high-performing kit on the MTR 8.9 is more than up to the task.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.1kgKho85D0rCTPHYyiYNpwHaHa?pid=ImgDet&rs=1", "https://th.bing.com/th/id/OIP.9ZC21Fe33HfJo8Kn6oprVgHaEK?pid=ImgDet&rs=1", "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/boardman-mtr-89-01-1544188600384-1adjcuj8rojyb-d6ace63.jpg?quality=90&resize=620,413"]
+    },
+
+    {
+      "make": "Cross Country",
+      "type": "Bike",
+      "name": "Chameleon MX S Mountain Bike",
+      "price": "$2,999.00",
+      "description": "The Chameleon has been among our top picks for hardtail trail bikes for some time thanks to its even-handed composure, and the Chameleon MX brings an added fun factor into the equation. The mixed-wheel version allows for effortless Scandinavian flicks, super fun jumping characteristics, and possibly even a better-fitting bike for smaller riders. This S-build features SRAM GX drivetrain components for crisp shifting and performance-focused G2 R hydraulic disc brakes for taking on steeper trails with confidence.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/R.217e3e0d09b547bbbaeb1ad5433ea18b?rik=QlGQ9qZcjGAvfw&riu=http%3a%2f%2fwww.backcountry.com%2fimages%2fitems%2f900%2fSNZ%2fSNZ002P%2fDARBLU.jpg&ehk=HlKrLQ4gqv4vzYc987TSNSAccmZcT2443EieS64Kdis%3d&risl=&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.d2f5629062539938a45da3ba5ddb460b?rik=uFQPrF7TYWIBiw&riu=http%3a%2f%2fwww.bikepacking.com%2fwp-content%2fuploads%2f2019%2f01%2fsanta-cruz-chameleon-c-review_14.jpg&ehk=BbnO3hmK%2fgxGUgJYNEfoxIK2Gx6EanQ14h86ZqmjuFc%3d&risl=&pid=ImgRaw&r=0", "https://www.leisurelakesbikes.com/images/santacruz_chameleon_alloy_d_fog.jpg"]
+    },
+
+    {
+      "make": "Cross Country",
+      "type": "Bike",
+      "name": "2023 Polygon Xtrada 6 1x11 - Mountain Bike",
+      "price": "$749.00",
+      "description": "Light, durable, butted, and hydroformed 6061 aluminum frame features 73mm threaded bottom bracket, internal and cable routing. Using most of the modern features, Xtrada models utilize slack head tubes and steep seat tube angles to ensure that the bike handles perfectly and travels effortlessly up and down the mountain.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/R.e24f297b0e173b6a0201af12cc6ba723?rik=LfKe4GWdxU7rzw&pid=ImgRaw&r=0", "https://th.bing.com/th/id/OIP.QZhlo_MwRp7WWYVcidJWDAHaEj?pid=ImgDet&rs=1", "https://ik.imagekit.io/r3wxc114qv/assets/alt_1/4875592.jpg?20200907152237"]
+    },
+
+    {
+      "make": "Cross Country",
+      "type": "Bike",
+      "name": "VITUS RAPIDE FS CRX MOUNTAIN BIKE",
+      "price": "$4,199.00",
+      "description": "The Rapide FS CRX is a full-carbon full suspension XC bike designed for knock-your-socks-off speed uphill and down. It’s light — just 23.5 lbs for a medium with tubeless tires — efficient and remarkably capable in technical terrain. The Rapide FS uses a flex pivot suspension design that shaves weight, requires less hardware and gives the bike a notably lively characteristic downhill. It also minimizes pedal bob, enhances comfort and improves performance under braking. Don’t just take our word for it, the Rapide FS CRX’s handling has earned it rave reviews from independent cycling media.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://cdn.shopify.com/s/files/1/0365/1272/7173/products/Vitus_Rapide-FS-CRX-Mountain-Bike-2021_02_1200x1200.jpg?v=1612800643", "https://p.vitalmtb.com/photos/products/28818/photos/55953/s1600_2020_Vitus_Rapide_CRX.jpg?1580143683", "https://th.bing.com/th/id/OIP.58wcRs56dB94RKvXxdQTggHaDF?pid=ImgDet&rs=1"]
+    },
+
+    {
+      "make": "Hardtail",
+      "type": "Bike",
+      "name": "Chameleon MX D Mountain Bike",
+      "price": "$2,099.00",
+      "description": "Built to tackle whatever kind of riding we can dream up, the Santa Cruz Chameleon MX is our go-to hardtail for everything from urban adventures to ripping hot laps after work. The updated geometry and mixed-wheel setup lets this bike turn even the most mundane trails into a good time. The longer and slacker geometry features a 65-degree headtube angle inspiring extra confidence on the steep stuff, and a long wheelbase for stability at speed. The 29-inch wheel up front keeps us rolling over chunky terrain with ease, while the 27.5-inch wheel out back keeps things playful for side hits, urban jibs, and drawn-out manuals.",
+      "sale": "35%",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.j-xrStK5bOl1nWigZHhs9wHaF2?pid=ImgDet&rs=1", "https://th.bing.com/th/id/R.7af4c5ab304631d96fa926375f580d26?rik=A%2bCSonMUx2saSw&pid=ImgRaw&r=0", "https://i.pinimg.com/originals/e3/52/9f/e3529f679b750197a72d910f2a949e07.jpg"]
+    },
+
+    {
+      "make": "Hardtail",
+      "type": "Bike",
+      "name": "Specialized 2022 Specialized Rockhopper Comp 29 Hardtail Mountain Bike",
+      "price": "$764.99",
+      "description": "A heart of gold, presented in lightweight yet durable Premium A1 Aluminum, the Rockhopper’s butted aluminum frame features hydroformed top and downtubes in order to keep weight low and strength high, all while providing increased standover clearance, slick internal cable routing and dropper-post compatibility. With the goal of making sure that the Rockhopper offers both the best fit and best performance for every person, no matter their measure, each Rockhopper frame size is paired with the optimal wheel size. The result is a Rockhopper to fit every rider and the assurance that every Rockhopper is rolling on the best-handling wheel for its frame size. Bringing Rx Tune to Rockhopper for the very first time, the lockout-equipped SR Suntour XCM with custom Multi-Circuit damping brings size-specific travel and spring rates to the show in a performance that’s sure to impress while also ensuring consistent geometry, handling and suspension performance, regardless of frame or wheel size. Beautifully beastly, SRAM Level hydraulic disc brakes pack a mean bite but deliver their power with a refined, intuitive feel to make for a package that punches way above its pay grade. Keep things simple with a durable 1x MicroSHIFT drivetrain that offers plenty of range along with a clutch-equipped rear derailleur that keeps your ride quite—and your chain on. Pair dead-reliable hubs from Formula with 25-millimeter internal diameter, hookless Stout rims for a wheelset hat-trick: strong, light and durable.", 
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.Y8_OKvrIBI5VtEoRn-MBzwHaEK?pid=ImgDet&rs=1", "https://az1p22uc.cdn.imgeng.in/content/products/20220107_123145_remastered.jpg_04d046e1d77b2fce7c4873c8f2acd09e.jpg", "https://th.bing.com/th/id/R.ab19a89f03d17e0e30d032dc6e3e0d68?rik=EFnqaPkWsXSGbQ&pid=ImgRaw&r=0"]
+    },
+
+    {
+      "make": "Hardtail",
+      "type": "Bike",
+      "name": "Diamondback 2022 Hook 27.5 Inch Hardtail Mountain Bike",
+      "price": "$699.99",
+      "description": "If you could only have one bike — just one — the 2022 DiamondBack Hook 27.5 Inch Hardtail Mountain Bike would be the perfect choice. For starters, it’s capable of, well, just about anything you have the nerve for. That includes quick rips on your local trails, all-day suffer fests that have you pedaling away into terra incognita, and everything in between. DB equipped the Hook with the same low-slung, modern frame as its well-heeled Line and Sync’r siblings. Long in the front, short in the back, low and maneuverable — the Hook is deft and precise on tight trails yet rock steady when you are going Mach Chicken down the steepest descents. The most impressive thing about the Hook, however, might just be its price. DB kept the price tag from burning a hole in your checking account by equipping the Hook with awesome yet affordable components, including a plush 120mm fork, simple and effective single-ring drivetrain, powerful disc brakes, and quick-rolling 27.5 wheels.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://th.bing.com/th/id/OIP.svbIZIG3NIr8Tktc4wzAFwHaEy?pid=ImgDet&rs=1", "https://images-na.ssl-images-amazon.com/images/I/51FJW16M1rL.jpg", "https://photos.offerup.com/lbC7iRQmhQQk4UqK3dvlRjWiWYs=/600x450/f14a/f14a0c9d0e75483391319dce4388947f.jpg"]
+    },
+
+    {
+      "type": "Bike",
+      "make": "Full Suspension",
+      "name": "5010 Carbon C R Mountain Bike",
+      "price": "$4,549.00",
+      "description": "Designed for riders who prioritize maneuverability but don’t want to sacrifice rollover ability, the 5010 Carbon C R Mountain Bike is an impressively balanced mid-travel trail bike. The mixed wheel design brings the best of both worlds with a 29in front wheel to cruise right over jagged rock rolls while a 27.5in rear wheel delivers precise cornering and jumping control. We get along great with the 130mm of VPP rear travel which features updates to the anti-squat and leverage curve to supply a slightly more planted feel for technical terrain. The head tube angle comes in at 64.9-degrees (low position) to match modern trends for enhanced stability, without going over the top to retain precise steering characteristics for tight switchbacks. Our favorite feature? The Glovebox in-frame storage system stashes our tools, spare tube, and windbreaker right in the downtube so that we don’t have to carry a hip pack.",
+      "sale": "",
+      "reviews": [{
+        "name": "mackie",
+        "location": "denver",
+        "time": "1 Hour ago",
+        "title": "pretty good",
+        "review": "overall good bike and company",
+        "rating": "4 stars",
+        "upvotes": "",
+        "downvotes": 0
+      },
+
+      {
+        "name": "jack",
+        "location": "oklahoma",
+        "time": "1 Month ago",
+        "title": "Mid",
+        "review": "Decent ig",
+        "rating": "3 stars",
+        "upvotes": 0,
+        "downvotes": 0
+      }],
+      "images": ["https://th.bing.com/th/id/R.62f9b20ecd18b1d4b12df01a10a23e3d?rik=8vHHyyybmjDmCg&riu=http%3a%2f%2fwww.backcountry.com%2fimages%2fitems%2f900%2fSNZ%2fSNZ001N%2fORAGN.jpg&ehk=A3M4LPAcDyAblVde1n5Q9mW5Q2KmuG1Rd00YED8AUeQ%3d&risl=&pid=ImgRaw&r=0", "https://p.vitalmtb.com/photos/products/14935/photos/16207/s1600_2015_Santa_Cruz_5010_Carbon_R_bike.jpg?1405501424", "https://4.bp.blogspot.com/-ckAJgynetJ0/VZVjFLGXIgI/AAAAAAAAFks/c84yNuJgTJ8/s1600/Santa%2BCruz%2B5010%2BCarbon%2BC%2BR%2BAM%2B3.jpg"]
+    },
+
+    {
+      "make": "Full Suspension",
+      "type": "Bike",
+      "name": "Ripley XT Factory Mountain Bike",
+      "price": "$5,599.20",
+      "description": "As mountain bikes continue to get longer and slacker, many riders find themselves gravitating towards balanced options like the Ripley XT Factory Mountain Bike. With 120mm of DW-Link travel, it can still get loose on descents, but the 66.5-degree head tube angle still makes the bike plenty nimble for steep switchbacks and tight terrain. The steep 76-degree seat tube angle puts us in an optimal position for pedaling all day long, and the DW-Link rear suspension is incredibly supportive while also producing excellent rear-wheel traction on techy climbs. The beauty of DW-Link is that it's just as good on the up as it is on the down, providing great cornering grip, and Ibis specs a 130mm travel fork to further boost the bike's descending capabilities.",
+      "sale": "",
+      "reviews": [],
+      "images": ["https://cdn.shopify.com/s/files/1/2318/5263/products/BMT14736_CM_02_800x800.jpg?v=1604118801", "https://th.bing.com/th/id/OIP.wXUbuBjYUA2T0biswi5legHaEK?pid=ImgDet&rs=1", "https://p.vitalmtb.com/photos/stories/2019/04/30/full_ripley4_build_blue_xtr_257605.jpg"]
+    },
+
+    {
+      "make": "Full Suspension",
+      "type": "Bike",
+      "name": "Trek Remedy 9.9 Mountain Bike - 2019, 19.5",
+      "price": "$5,289.99",
+      "description": "The Trek Remedy is no spring chicken. It’s been around the block, seen what trails have to offer, and translated into a rideable platform. Green to double blacks approved! The slack geometry, 27.5 wheels, and long travel will impress you on the downhill, but this bike will surprise you on the uphill too. The trail geo isn’t extreme in any direction, but it’s fun riding in every direction. Tweak the geometry .5° by flipping the Mino-Link on the seat stay to cater to varying trail demands. If you've been struggling to find your next bike, this might be the Remedy.",
+      "sale": "15%",
+      "reviews": [],
+      "images": ["https://cdn.shopify.com/s/files/1/2318/5263/products/BMT14720_CM_02_506aad67-bb49-4576-8d01-04741d7fecf4_800x800.jpg?v=1604120096","https://th.bing.com/th/id/OIP.zfcwwh61jM589yCZ_MfGEQHaEK?pid=ImgDet&rs=1", "https://www.allterraincycles.co.uk/Images/Original/155651_2.jpg"]
+    },
+
+    {
+      "name": "Fat Bikes"
+    },
+
+    {
+      "name": "Enduro Bikes"
+    },
+
+    {
+      "name": "Cross Country Bikes"
+    },
+
+    {
+      "name": "Downhill Bikes"
+    },
+
+    {
+      "name": "Trail Bikes"
+    },
+
+    {
+      "name": "Full Suspension Bikes"
+    },
+
+    {
+      "name": "Hardtail Bikes"
+    }
+  ]
+}

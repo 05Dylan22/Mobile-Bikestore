@@ -1,0 +1,202 @@
+p, h1, h2, h3, div, button {
+  font-family: montserrat;
+}
+
+@media only screen and (min-width: 280px) {
+  .footer {
+    background-color: black;
+    width: 100vw;
+    padding-top: 32px;
+    display: grid;
+    justify-content: center;
+    margin-top: 54px;
+  }
+
+  /*newsletter section*/
+  .signup-wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  .sign-up-div {
+    display: grid;
+    justify-content: center;
+  }
+
+  .sign-up-top > h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 90vw;
+    max-width: 500px;
+  }
+
+  .sign-up-top > p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    width: 90vw;
+    margin-bottom: 54px;
+    max-width: 500px;
+  }
+
+  .bottom-wrapper, .top-wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  .sign-up-bottom {
+    width: 90vw;
+    max-width: 500px;
+  }
+
+  .sign-up-field {
+    width: 90vw;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .newsletter-signup {
+    height: 28px;
+    width: 70%;
+    max-width: 350px;
+    border: 1px solid gray;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: white;
+    color: black;
+  }
+
+  .newsletter-signup:focus {
+    outline: 1px solid rgb(75, 197, 238);
+    z-index: 1;
+  }
+
+  .signup-btn {
+    width: 28%;
+    height: 28px;
+    max-width: 150px;
+    border: 1px solid gray;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: white;
+    color: black;
+    font-weight: 500
+  }
+
+  .sign-up-bottom > p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  /*social media icons*/
+  .social-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+  }
+
+  .social-icon-div {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgba(99, 99, 99, 0.3);
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon:first-child {
+    margin-left: 0;
+  }
+
+  .social-imgs {
+    width: 30px;
+    height: 30px;
+  }
+
+  .instagram {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+  }
+
+  .facebook {
+    height: 25px;
+    width: 35px;
+  }
+
+  .tiktok {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*footer nav*/
+  .footer-nav {
+    width: 100vw;
+    display: grid;
+    margin-top: 54px;
+  }
+
+  .nav-option1, .nav-option2, .nav-option3 {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    display: grid;
+    align-items: start;
+    height: 38px;
+    transition: height 0.5s;
+  }
+
+  .nav-selection1, .nav-selection2, .nav-selection3 {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contents1, .contents2, .contents3 {
+    display: none;
+    color: gray;
+    margin-left: 12px;
+    font-size: 12px;
+    align-items: start;
+  }
+
+  .nav-option1 {
+    border-top: 2px solid gray;
+  }
+
+  .nav-title {
+    color: white;
+    margin-left: 12px;
+  }
+
+  .nav-arrow {
+    color: white;
+    margin-right: 12px;
+  }
+
+  #arrowTop, #arrowMiddle, #arrowBottom {
+    transition: rotate 0.5s;
+  }
+
+  .footer-nav-item {
+    margin: 0;
+    margin-bottom: 6px;
+  }
+}
