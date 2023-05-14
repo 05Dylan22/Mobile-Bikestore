@@ -485,7 +485,7 @@ p, h1, h2, h3, div, button {
   }
 
   .checkbox:checked {
-    background-image: url(/images/checkmark.png);
+    background-image: url(bikestore/images/checkmark.png);
     background-size: contain;
   }
 
@@ -916,7 +916,7 @@ p, h1, h2, h3, div, button {
   }
 
   #r-img5 {
-    background-image: url(https://m.media-amazon.com/checkmark.png/images/I/71A9FiQwcUL._AC_SL1500_.jpg);
+    background-image: url(https://m.media-amazon.com/I/71A9FiQwcUL._AC_SL1500_.jpg);
   }
 
   .size-warning {
