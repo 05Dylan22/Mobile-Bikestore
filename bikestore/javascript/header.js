@@ -51,6 +51,14 @@ let checkoutBtn
 let searchOuput = ""
 
 
+if (!localStorage.getItem("wishlist")) {
+  localStorage.setItem("wishlist",JSON.stringify([]))
+}
+
+if (!localStorage.getItem("cartNum")) {
+  localStorage.setItem("cartNum", 0)
+}
+
 //logo click return to home page
 logoImg.addEventListener("click", () => {
   location.replace("http://127.0.0.1:5500/bikestore/index.html")

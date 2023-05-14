@@ -485,7 +485,7 @@ p, h1, h2, h3, div, button {
   }
 
   .checkbox:checked {
-    background-image: url(/bikestore/images/checkmark.png);
+    background-image: url(images/checkmark.png);
     background-size: contain;
   }
 
