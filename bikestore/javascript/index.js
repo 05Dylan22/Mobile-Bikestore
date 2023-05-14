@@ -33,7 +33,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://127.0.0.1:5500/bikestore/shoppingpage.html")
+  location.replace("https://05dylan22.github.io/bikestore/bikestore/shoppingpage")
 }
 
 xc2.addEventListener("click", clickedXc)

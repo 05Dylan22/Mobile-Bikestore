@@ -61,7 +61,7 @@ if (!localStorage.getItem("cartNum")) {
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("http://127.0.0.1:5500/bikestore/index.html")
+  location.replace("https://05dylan22.github.io/bikestore/bikestore/")
 })
 
 //hamburger menu popups
@@ -184,9 +184,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/bikestore/product.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/product" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/bikestore/shoppingpage.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/shoppingpage" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -337,7 +337,7 @@ function cartHTML() {
   let cartItem
   for (let i = 0; i < cartLength; i++) {
     cartItem = JSON.parse(localStorage.getItem(`${i}`))
-    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="/bikestore/images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
+    cartContents += `<div id="${i}" class="added-item"><img id="${i}" class="remove-item" src="images/search.cancel.icon.png"><div class="left-cart"><img src=${cartItem.images[0]} alt="image in cart"></div><div class="middle-cart"><p class="cart-product-name">${cartItem.name}</p><p class="cart-product-price">${cartItem.price}</p></div><div class="right-cart"><p id="quantity${i}">1</p><button class="quantity-down">-</button><button class="quantity-up">+</button></div></div>`
 
     cash = cartItem.price
     cash = cash.replace("$", "")
@@ -512,7 +512,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://127.0.0.1:5500/bikestore/shoppingpage.html")
+  location.replace("https://05dylan22.github.io/bikestore/bikestore/shoppingpage")
 }
 
 function clickedFullSus() {

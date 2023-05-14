@@ -39,7 +39,7 @@ let emptyReview = ""
 
 let wishlist2 = JSON.parse(localStorage.getItem("wishlist"))
 if (wishlist2 == 0) {
-  hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
+  hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="images/heart-outline.png">`
 } else {
   let match = false
   for (let i = 0; i < wishlist2.length; i++) {
@@ -49,16 +49,16 @@ if (wishlist2 == 0) {
   }
 
   if (match) {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="images/heart-filled.png">`
   } else {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="images/heart-outline.png">`
   }
 }
 
 
 hearts.addEventListener("click", () => {
-  if (hearts.innerHTML === `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`) {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-outline.png">`
+  if (hearts.innerHTML === `<img alt="heart outline" class="heart-img" src="images/heart-filled.png">`) {
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="images/heart-outline.png">`
     for (let i = 0; i < wishlist2.length; i++) {
       if (wishlist2[i].name === (productInfo.name)) {
         wishlist2.splice(i, 1)
@@ -66,7 +66,7 @@ hearts.addEventListener("click", () => {
     }
     localStorage.setItem("wishlist", `${JSON.stringify(wishlist2)}`)
   } else {
-    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="/bikestore/images/heart-filled.png">`
+    hearts.innerHTML = `<img alt="heart outline" class="heart-img" src="images/heart-filled.png">`
     wishlist2.push(productInfo)
     localStorage.setItem("wishlist", `${JSON.stringify(wishlist2)}`)
   }
@@ -537,7 +537,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("http://127.0.0.1:5500/bikestore/index.html")
+  location.replace("https://05dylan22.github.io/bikestore/bikestore/")
 })
 
 //hamburger menu popups
@@ -659,9 +659,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/bikestore/product.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/product" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="/bikestore/shoppingpage.html" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/shoppingpage" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -990,7 +990,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("http://127.0.0.1:5500/bikestore/bikestore/shoppingpage.html")
+  location.replace("https://05dylan22.github.io/bikestore/bikestore/shoppingpage")
 }
 
 function clickedFullSus() {
