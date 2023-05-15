@@ -63,7 +63,7 @@ window.onpopstate = (event) => {console.log("hello")}
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location = "https://05dylan22.github.io/bikestore/"
+  location.assign("https://05dylan22.github.io/bikestore/")
 })
 
 //hamburger menu popups
@@ -514,7 +514,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location = "https://05dylan22.github.io/bikestore/shoppingpage"
+  location.assign("https://05dylan22.github.io/bikestore/shoppingpage")
 }
 
 function clickedFullSus() {
