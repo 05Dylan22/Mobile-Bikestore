@@ -537,7 +537,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("https://05dylan22.github.io/bikestore/")
+  window.location.assign("https://05dylan22.github.io/bikestore/")
 })
 
 //hamburger menu popups
@@ -990,7 +990,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("https://05dylan22.github.io/bikestore/shoppingpage")
+  window.location.assign("https://05dylan22.github.io/bikestore/shoppingpage")
 }
 
 function clickedFullSus() {
