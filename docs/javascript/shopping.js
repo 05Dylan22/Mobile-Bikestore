@@ -99,7 +99,7 @@ viewProduct.forEach((product) => {
 
   let productId = product.getAttribute("id") 
   sessionStorage.setItem("selectedProduct", JSON.stringify(jsonPr[productId]))
-  location.replace("https://05dylan22.github.io/bikestore/product")
+  location = "https://05dylan22.github.io/bikestore/product"
   })
 })
 
@@ -160,7 +160,7 @@ let searchOuput = ""
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("https://05dylan22.github.io/bikestore/")
+  location = "https://05dylan22.github.io/bikestore/"
 })
 
 //hamburger menu popups
@@ -613,7 +613,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("https://05dylan22.github.io/bikestore/shoppingpage")
+  location = "https://05dylan22.github.io/bikestore/shoppingpage"
 }
 
 function clickedFullSus() {

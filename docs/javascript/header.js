@@ -59,9 +59,11 @@ if (!localStorage.getItem("cartNum")) {
   localStorage.setItem("cartNum", 0)
 }
 
+window.onpopstate = (event) => {console.log("hello")}
+
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("https://05dylan22.github.io/bikestore/")
+  location = "https://05dylan22.github.io/bikestore/"
 })
 
 //hamburger menu popups
@@ -512,7 +514,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("https://05dylan22.github.io/bikestore/shoppingpage")
+  location = "https://05dylan22.github.io/bikestore/shoppingpage"
 }
 
 function clickedFullSus() {
