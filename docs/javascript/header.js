@@ -61,7 +61,7 @@ if (!localStorage.getItem("cartNum")) {
 
 //logo click return to home page
 logoImg.addEventListener("click", () => {
-  location.replace("https://05dylan22.github.io/bikestore/bikestore/")
+  location.replace("https://05dylan22.github.io/bikestore/")
 })
 
 //hamburger menu popups
@@ -184,9 +184,9 @@ fetch("products.json").then(res => res.json()).then(data => {
     for (let i = 0; i < data.searchableterms.length; i++) {
       let item = data.searchableterms[i].name
       if (item.toLocaleLowerCase().includes(input) && !item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/product" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/product" class="search-result">${item}</a>`
       } else if (item.toLocaleLowerCase().includes(input) && item.includes("Bikes")) {
-        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/bikestore/shoppingpage" class="search-result">${item}</a>`
+        searchOuput += `<a id="${searchItemId}" href="https://05dylan22.github.io/bikestore/shoppingpage" class="search-result">${item}</a>`
       } else {
         searchOuput += ""
       }
@@ -512,7 +512,7 @@ function clickedCat() {
     sessionStorage.removeItem("generaljson")
   }
 
-  location.replace("https://05dylan22.github.io/bikestore/bikestore/shoppingpage")
+  location.replace("https://05dylan22.github.io/bikestore/shoppingpage")
 }
 
 function clickedFullSus() {
