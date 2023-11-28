@@ -390,6 +390,7 @@ let isDragging = false,
   }
 
   function touchStart(index) {
+    console.log(index)
     return function(event) {
       currentIndex = index
       startPos = getPositionX(event)
